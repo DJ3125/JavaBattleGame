@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battlegame_10_22_23.ShopSceneController">
+   <children>
+      <HBox fx:id="itemsHBox" layoutX="31.0" layoutY="40.0" prefHeight="294.0" prefWidth="539.0" />
+      <Label layoutX="277.0" layoutY="14.0" text="Buy Items" />
+      <Label fx:id="moneyRemainingLabel" layoutX="252.0" layoutY="344.0" text="Money Remaining: " />
+      <Button fx:id="returnToBaseCampButton" layoutX="234.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#handleReturnToBaseCamp" text="Go Back To Base Camp" />
+   </children>
+</AnchorPane>

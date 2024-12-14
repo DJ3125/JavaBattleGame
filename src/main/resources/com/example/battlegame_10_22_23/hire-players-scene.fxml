@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="438.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battlegame_10_22_23.HirePlayerSceneController">
+   <children>
+      <Label layoutX="228.0" layoutY="14.0" text="Select A Teammate To Hire" />
+      <Label fx:id="moneyRemainingLabel" alignment="CENTER" layoutX="190.0" layoutY="31.0" prefHeight="17.0" prefWidth="219.0" />
+      <VBox fx:id="availableTeammatesVBox" layoutX="20.0" layoutY="57.0" prefHeight="301.0" prefWidth="560.0" />
+      <Button fx:id="returnToBaseCampButton" disable="true" layoutX="235.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#handleReturnToBaseCamp" text="Return To Base Camp" visible="false" />
+      <Button fx:id="informationButton" layoutX="256.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#handleOpenInformation" text="Open Up Info" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+Alan Grant
+src/main/resources/Pictures/QuestionMark.png
+75
+25
+75
+1
+com.example.battlegame_10_22_23.AttackChangeEffect
+
+0,2,

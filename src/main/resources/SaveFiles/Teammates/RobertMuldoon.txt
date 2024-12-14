@@ -1,0 +1,9 @@
+Robert Muldoon
+src/main/resources/Pictures/Muldoon.jpg
+60
+49
+60
+1
+com.example.battlegame_10_22_23.AttackChangeEffectcom.example.battlegame_10_22_23.BleedEffect
+
+0,1,3,

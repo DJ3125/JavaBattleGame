@@ -1,0 +1,9 @@
+Ian Malcolm
+src/main/resources/Pictures/QuestionMark.png
+80
+30
+80
+1
+
+
+0,7,
